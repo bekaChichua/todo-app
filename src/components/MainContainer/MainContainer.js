@@ -19,6 +19,12 @@ const MainContainer=()=>{
     
     const [todoDisplay, setTodoDisplay]=useState(allTodos)
 
+    const addNewTodos=()=>{
+        setTodoDisplay(prevState=>{
+            [...prevState, ]
+        })
+    }
+
     console.log(todoDisplay)
     return(
     <div id="MainContainer">
