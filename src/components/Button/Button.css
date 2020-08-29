@@ -1,0 +1,54 @@
+#greenButton{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 883px;
+    top: 747px;
+    background-color: greenyellow;
+    font-size: 64px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color:whitesmoke
+}
+  
+#greenButton:hover  {
+    transform: scale(1.3, 1.3);
+  }
+
+  #blur{
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 667px;
+    filter: blur(100px);
+    /* display: none; */
+}
+#createNewTodo{
+    width:300px;
+    height: 150px;
+    background: greenyellow;
+    position: absolute;
+    left: 47.750em;
+    bottom: 31.250em;
+    z-index: 1;
+    border: solid white;
+    border-radius: 5%;
+    /* display: none; */
+}
+
+#createNewTodoInput{
+    width: 80%;
+    height: 30px;
+    margin: 20px 26px;
+}
+
+
+#createNewTodoButton{
+    width: 100px;
+    height: 30px;
+    margin: 10px 100px;
+}

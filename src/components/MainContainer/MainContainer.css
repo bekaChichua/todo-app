@@ -1,0 +1,40 @@
+#MainContainer {
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    box-shadow: 3px 3px 5px -3px #333;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    font-size: 1 em;
+}
+
+.todoItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-grow: 2;
+    margin: 20px 40px;
+    font-size: 20px;
+}
+
+
+
+
+input[type=checkBox]{
+    margin-left: 20px;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 3px solid greenyellow;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type=checkBox]:checked {
+    background-color: greenyellow;
+}

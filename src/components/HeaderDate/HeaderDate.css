@@ -1,0 +1,30 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#month{
+    display: flex;
+    flex-direction: column; 
+}
+#N{
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#monthP{
+    margin: 0;
+    font-size: 25px;
+    
+}
+#year{
+    margin:0;
+    font-size: 25px;
+}
+
+#day{
+    font-size: 70px;
+    margin-right: 10px;
+}
